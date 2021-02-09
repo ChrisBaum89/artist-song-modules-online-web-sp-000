@@ -11,8 +11,7 @@ class Song
   @@songs = []
 
   def initialize
-    self.class.all << self
-    @songs = []
+    super
   end
 
   # def self.find_by_name(name)
